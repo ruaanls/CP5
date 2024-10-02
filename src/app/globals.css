@@ -118,21 +118,18 @@
     font-weight: bold;
 }
 
-/* Adicionando estilos para as imagens */
 .catastrofes-celestiais img {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
 
-/* Estilos para os títulos das seções */
 .catastrofes-celestiais h2 {
     font-size: 1.5em;
     color: #3f16d3;
     margin-bottom: 15px;
 }
 
-/* Ajuste para o layout das seções */
 .catastrofes-celestiais section {
     flex-direction: column;
 }

@@ -1,10 +1,9 @@
 import React from 'react'
 
-
-export default function Sobre() {
+export default function Ideia1() {
   return (
     <div>
         
     </div>
-  )
+  );
 }

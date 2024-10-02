@@ -2,6 +2,7 @@ import React from 'react'
 import '../globals.css'
 
 export default function Ideia3() {
+
     return (
         <div className="catastrofes-celestiais">
             <h1>Catástrofes Mundiais de Origem Celestial: Um Olhar Crítico sobre "Worlds in Collision" e Além</h1>

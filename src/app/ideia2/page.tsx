@@ -2,6 +2,7 @@ import React from 'react'
 import '../globals.css' 
 
 export default function Ideia2() {
+
     return (
         <div className="biografia-projeto">
             <h1>Mitos e Tradições Ancestrais sobre Catástrofes Cósmicas</h1>
@@ -62,3 +63,4 @@ export default function Ideia2() {
         </div>
     )
 }
+
