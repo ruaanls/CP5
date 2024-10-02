@@ -1,35 +1,31 @@
 import Image from "next/image";
 "use client";
-  import { ApodData } from '../type'; // Verifique se o caminho está correto
+  import { ApodData } from '../type'; 
   import { useEffect, useState } from 'react';
 
   
 
 export default function Home() {
-  const [apod, setApod] = useState<ApodData>(); // Ajustando o estado inicial para null
+  const [apod, setApod] = useState<ApodData>(); 
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchApod = async () => {
       
-        const res = await fetch('/api/nasaImage'); // Chamando a nova API
+        const res = await fetch('/api/nasaImage'); 
         const data = await res.json();
         setApod(data);
         setLoading(false);
       
     };
 
-    fetchApod(); // Busca inicial
+    fetchApod();
   }, []);
 
   
   return (
     <div>
-      {/* Chamada de API para Imagens aqui
       
-      
-      
-      */}
 
       
       <img src={apod?.url} alt="Imagem do dia aleatória" /> 

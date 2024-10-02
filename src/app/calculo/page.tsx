@@ -4,16 +4,15 @@ import React, { useEffect, useState } from "react";
 export default function Calculo() {
 
 
-  const [apod, setApod] = useState<ApodData>(); // Ajustando o estado inicial para null
-  const [loading, setLoading] = useState(true);
+  const [apod, setApod] = useState<ApodData>();
 
   useEffect(() => {
     const fetchApod = async () => {
       
-        const res = await fetch('/api/nasaImage'); // Chamando a nova API
+        const res = await fetch('/api/nasaImage'); 
         const data = await res.json();
         setApod(data);
-        setLoading(false);
+        
       
     };
 

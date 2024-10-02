@@ -1,4 +1,4 @@
-// app/not-found/page.js
+
 import React from 'react';
 export default function NotFoundPage()
 {
