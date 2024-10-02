@@ -31,8 +31,8 @@ export default function Home() {
       
       */}
 
-      <p>{apod?.url}</p>
-      <img src={apod?.url} alt="" /> 
+      
+      <img src={apod?.url} alt="Imagem do dia aleatória" /> 
       
 
       <h1>Immanuel Velikovsky, world a collision e sua relação com a astronomia</h1>
