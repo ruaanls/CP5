@@ -1,4 +1,5 @@
 import React from 'react'
+import '../globals.css'
 
 export default function Ideia3() {
     return (
@@ -27,7 +28,6 @@ export default function Ideia3() {
             <section className="fato-ou-ficcao">
                 <h2>Catástrofes Celestes: Fato ou Ficção?</h2>
                 <p>Enquanto as ideias específicas de Velikovsky são rejeitadas, a possibilidade de eventos cósmicos impactantes continua sendo um tema de estudo científico sério.</p>
-                <img src="/images/ideia3/asteroid-impact.png" alt="Simulação de impacto de asteroide" />
             </section>
         </div>
     )   

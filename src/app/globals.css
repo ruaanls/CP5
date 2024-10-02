@@ -1,0 +1,142 @@
+
+/* CSS IDEIA 2 */
+
+.biografia-projeto h1 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #3f16d3;
+    margin-bottom: 30px;
+}
+
+
+.introducao-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introducao p {
+    display: block;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 50%;
+    color: #3f16d3;
+    margin-bottom: 20;
+}
+
+  .biografia-projeto section {
+    border-top: 3px solid #3d0093;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .temas-comuns ul, .proposito-dos-mitos ul, .exemplos-mitos ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .temas-comuns li::before, .proposito-dos-mitos li::before, .exemplos-mitos li::before {
+    content: "•";
+    color: #e74c3c;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+  .ciencia-e-mitos p {
+    background-color: #f9e79f;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+/* CSS IDEIA 3 */
+.catastrofes-celestiais h1 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #3f16d3;
+    margin-bottom: 30px;
+}
+
+.catastrofes-celestiais .introducao-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catastrofes-celestiais .introducao-text p {
+    display: block;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 50%;
+    color: #3f16d3;
+    margin-bottom: 20px;
+}
+
+.catastrofes-celestiais section {
+    border-top: 3px solid #3d0093;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teorias-velikovsky ul,
+.cultura-e-ciencia ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.teorias-velikovsky li::before,
+.cultura-e-ciencia li::before {
+    content: "•";
+    color: #e74c3c;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.fato-ou-ficcao p {
+    background-color: #f9e79f;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Adicionando estilos para as imagens */
+.catastrofes-celestiais img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos para os títulos das seções */
+.catastrofes-celestiais h2 {
+    font-size: 1.5em;
+    color: #3f16d3;
+    margin-bottom: 15px;
+}
+
+/* Ajuste para o layout das seções */
+.catastrofes-celestiais section {
+    flex-direction: column;
+}
+
+.catastrofes-celestiais .introducao-text {
+    width: 100%;
+}
