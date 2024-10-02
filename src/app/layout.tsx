@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import Rodape from "@/components/Rodape/Rodape";
 import type { Metadata } from "next";
 
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body>
         <Header/>
         {children}
+        <Rodape/>
       </body>
     </html>
   );
