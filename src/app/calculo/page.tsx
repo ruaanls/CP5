@@ -1,8 +1,27 @@
-import React from "react";
+import { ApodData } from "@/type";
+import React, { useEffect, useState } from "react";
 
 export default function Calculo() {
+
+
+  const [apod, setApod] = useState<ApodData>(); // Ajustando o estado inicial para null
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchApod = async () => {
+      
+        const res = await fetch('/api/nasaImage'); // Chamando a nova API
+        const data = await res.json();
+        setApod(data);
+        setLoading(false);
+      
+    };
+
+    fetchApod(); // Busca inicial
+  }, []);
   return (
     <div>
+      <img src={apod?.url} alt="" />
       <section className="introducao">
         <h2>O Tempo de Aproximação de Vênus</h2>
         <p>
